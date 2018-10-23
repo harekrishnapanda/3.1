@@ -1,3 +1,5 @@
+# A function to compute 5/0 and used try/except to catch the exceptions.
+
 # 3.1
 def divsn():
     try:
@@ -6,7 +8,7 @@ def divsn():
         val = int(a/b)
         print("Result =", val)
     except:
-        print("Can't devide any number with zero value")
+        print("Can't divide any number with zero value")
         
         
         divsn()
